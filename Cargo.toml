@@ -1,0 +1,18 @@
+[package]
+name = "tradingview"
+version = "0.1.0"
+authors = ["Huy <huy@thefullsnack.com>"]
+description = "TradingView app"
+
+[dependencies]
+web-view = { git = "https://github.com/huytd/web-view" }
+
+[package.metadata.bundle]
+name = "TradingView"
+identifier = "com.huy.tradingview"
+version = "1.0.0"
+resources = []
+copyright = "Copyright (c) Huy Tran 2018. All rights reserved."
+short_description = "TradingView app"
+long_description = "TradingView app"
+icon = ["tradingview.icns"]
